@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit secrets — NEVER commit these
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+*.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / logs (keep sample_portfolio.csv, ignore user-generated exports)
+*.log
+outputs/
